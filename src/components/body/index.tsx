@@ -1,6 +1,6 @@
 import * as React from 'react';
 import blogs from '../../../../mockData/index.json'
-import Card from './card'
+import Card from '../card'
 
 interface blogType {
     date: string;
