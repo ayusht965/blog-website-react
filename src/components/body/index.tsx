@@ -1,5 +1,5 @@
 import * as React from 'react';
-import blogs from '../../../../mockData/index.json'
+import blogs from '../../mockData/index.json'
 import Card from '../card'
 
 interface blogType {

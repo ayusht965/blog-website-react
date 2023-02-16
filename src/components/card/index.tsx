@@ -1,5 +1,5 @@
 import * as React from 'react';
-import images from '../../assets/Images/abstract.png'
+import image from '../../assets/Images/abstract.png'
 interface prototype {
     blog: {
         date: string;
@@ -28,12 +28,12 @@ export default function Card(props: prototype) {
     }, [userClapped])
 
     return (
-        <div className='box'>
-            <div className='image'>
-                <img src={imageUrl} alt="abstarct" />
+        <div className="box">
+            <div className="image">
+                <img src={imageUrl} alt="abstract" />
             </div>
-            <div className='image-padding'>
-                <div className='image-post-details image-margin'>
+            <div className="image-padding ">
+                <div className="image-post-details image-margin">
                     <span>{props.blog.date}</span>
                     <span>{props.blog.readingTime}</span>
                 </div>
@@ -53,3 +53,4 @@ export default function Card(props: prototype) {
         </div>
     )
 }
+
